@@ -1,0 +1,27 @@
+{
+  "sources": {"main": "episode.mp4"},
+  "audio_source": "main",
+  "transcript": "transcript.json",
+  "output": "out/clip01.mp4",
+  "width": 1080, "height": 1920, "fps": 30,
+  "speed": 1.04,
+  "focus": [0.5, 0.42],
+  "tighten": {"max_gap": 0.45, "keep_gap": 0.14},
+  "segments": [
+    {"in": 812.4, "out": 826.0, "zoom": 1.0},
+    {"in": 826.0, "out": 838.5, "zoom": 1.25},
+    {"in": 838.5, "out": 851.0, "zoom": 1.05, "push": 0.06}
+  ],
+  "captions": {"enabled": true, "style": "stroke", "y": 0.74, "highlight": []},
+  "hook": {"text": "El error que todos cometen al empezar", "start": 0.0, "dur": 2.6, "y": 0.2},
+  "cards": [
+    {"at": 815.0, "dur": 3.0, "text": "Invitada", "sub": "cargo o descripción", "style": "name", "y": 0.6},
+    {"at": 830.2, "dur": 2.0, "text": "DATO CLAVE", "style": "accent", "y": 0.62, "deg": -2}
+  ],
+  "watermark": "@tu_canal",
+  "end_card": {"dur": 3.0, "title": "EPISODIO COMPLETO", "lines": ["En Spotify y YouTube"], "cta": ["ESCÚCHALO", "link en la bio"], "handle": "@tu_canal"},
+  "brand": {"bg": "#F2E1C4", "ink": "#161416", "accent": "#E2A030", "accent2": "#AC3428", "text": "#FFFFFF"},
+  "music": {"file": "bgm.wav", "level_db": -17, "duck": true, "loop": true},
+  "sfx": true,
+  "loudness": -14
+}
